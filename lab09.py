@@ -1,6 +1,7 @@
 def read_file(filename, max_length):
     with open(filename, 'r') as file:
         for line in file:
+            line = line.rstrip('\n')
             if len(line) > max_length:
                 yield line[:max_length]
             else:

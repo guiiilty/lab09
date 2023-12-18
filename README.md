@@ -29,4 +29,4 @@ for line in read_file(filename, max_length):
 
 Результат:
 
-![Alt text](Term_1.png)# lab09
+![Alt text](Term_1.png)
